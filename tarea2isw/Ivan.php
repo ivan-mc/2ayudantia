@@ -10,7 +10,7 @@
 <script >
 var objetos = new Array();
 //acá van los eslogan en fotos
-objetos[0] = "a.jpg";
+objetos[0] = "slogan01.jpg";
 objetos[1] = "BeFunky_BeFunky_homer-informatica.jpg";
 objetos[2] = "01.jpg";
 
@@ -62,12 +62,12 @@ function aleatorio() {
            
             </ul>
 </div>
-        <a><b>Nombre:</b> Fernando Guerrero Muñoz <br ><b>Edad:</b> 23 años <br /><b>Carrera:</b> Ingenieria Informatica <br> <b>Direccion:</b> Calbuco 7960 <br> <b>Comuna:</b> La Granja </a><br><b>Email:</b> <color2> <a href="#"><color2>F.guerrerox@gmail.com </a></color2><br>
+        <a><b>Nombre:</b> Iván Montenegro Contreras <br ><b>Edad:</b> 23 años <br /><b>Carrera:</b> Ingenieria en Informática <br> <b>Direccion:</b> Pasaje Dolores #8840, La Libertad <br> <b>Comuna:</b> San Ramón </a><br><b>Email:</b> <color2> <a href="#"><color2>ivan.andres.mc@gmail.com </a></color2><br>
         
          
       <b>Github:</b><a href="https://github.com/fernanrock/2ayudantia"><color>https://github.com/fernanrock/2ayudantia</a></color> <br><br>
       <center>
-      <img  src="1.jpg"  width="640" height="480" /></center>
+      <img  src="3.jpg"  width="400" height="400" /></center>
   
           
      
