@@ -5,7 +5,37 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Tarea2isw</title>
++</head>
 
++
+
++<center><?php
+
++                $color = "#FF0000"; 
+
++                $cadena1 = "Si piensas que los usuarios de tus programas son idiotas, sólo los idiotas usarán tus programas";
+
++                $cadena2 = "La mejor forma de predecir el futuro es implementarlo";
+
++                $variable= rand(1, 2);
+
++     if($variable==1){
+
++        echo "<p><font color='".$color."'>".$cadena1."</font></p>";
+
++     }
+
++     if ($variable==2){
+
++         echo "<p><font color='".$color."'>".$cadena2        ."</font></p>";
+
++    }   
+
++    ?></center>
+
++
+
++<head>
 
 <script >
 var objetos = new Array();
