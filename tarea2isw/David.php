@@ -7,6 +7,22 @@
 <title>Tarea2isw</title>
 
 
+</head>
+
+<center><?php
+                $color = "#FF0000"; 
+                $cadena1 = "Si piensas que los usuarios de tus programas son idiotas, sólo los idiotas usarán tus programas";
+                $cadena2 = "La mejor forma de predecir el futuro es implementarlo";
+                $variable= rand(1, 2);
+     if($variable==1){
+        echo "<p><font color='".$color."'>".$cadena1."</font></p>";
+     }
+     if ($variable==2){
+         echo "<p><font color='".$color."'>".$cadena2        ."</font></p>";
+    }   
+    ?></center>
+
+<head>
 <script >
 var objetos = new Array();
 //acá van los eslogan en fotos
@@ -19,22 +35,6 @@ function aleatorio() {
    document.images["imagen"].src = objetos[azar];
 }
 </script>
-
-<head>
-<center><?php
-		$color = "#FF0000"; 
-		$cadena1 = "Si piensas que los usuarios de tus programas son idiotas, sólo los idiotas usarán tus programas";
-		$cadena2 = "La mejor forma de predecir el futuro es implementarlo";
-		$variable= rand(1, 2);
-     if($variable==1){
-        echo "<p><font color='".$color."'>".$cadena1."</font></p>";
-     }
-     if ($variable==2){
-         echo "<p><font color='".$color."'>".$cadena2	."</font></p>";
-    }   
-    ?></center>
-
-
 </head>
 
 
@@ -53,7 +53,7 @@ function aleatorio() {
                        
                     </a>
                 </li>
-                <li><a href="Ivan.php">
+                <li><a href="ivan.php">
                         <span class="title">Ficha 3</span>
                         
                     </a>
@@ -61,15 +61,13 @@ function aleatorio() {
                 
            
             </ul>
-</div>
-        <a><b>Nombre:</b> Fernando Guerrero Muñoz <br ><b>Edad:</b> 23 años <br /><b>Carrera:</b> Ingenieria Informatica <br> <b>Direccion:</b> Calbuco 7960 <br> <b>Comuna:</b> La Granja </a><br><b>Email:</b> <color2> <a href="#"><color2>F.guerrerox@gmail.com </a></color2><br>
-        
-         
+        </div>
+        <a><b>Nombre:</b> David Muñoz Muñoz <br ><b>Edad:</b> 23 años <br /><b>Carrera:</b> Ingenieria Informatica <br> <b>Direccion:</b> La Pradera Sitio #1, Lolenco <br> <b>Comuna:</b> Curacaví </a><br><b>Email:</b> <color2> <a href="#"><color2>David.Munoz@ceinf.cl </a></color2><br>
       <b>Github:</b><a href="https://github.com/fernanrock/2ayudantia"><color>https://github.com/fernanrock/2ayudantia</a></color> <br><br>
       <center>
-      <img  src="1.jpg"  width="640" height="480" /></center>
+      <img  src="2.jpg"  width="300" height="500" /></center>
   
-          
+  	
      
 
 
